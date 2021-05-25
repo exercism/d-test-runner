@@ -1,5 +1,5 @@
 {
   "version": 1,
   "status": "fail",
-  "output": "example_all_fail ~master: building configuration \"example_all_fail-test-library\"...\nLinking...\nRunning ./example_all_fail-test-library \n\u001b[01;31m\u001b[Kcore.exception.AssertError@source/example_all_fail.d(13): Assertion failure\u001b[m\u001b[K\n1/1 modules FAILED unittests\n\u001b[01;31m\u001b[Ksource/example_all_fail.d(13): [unittest] Assertion failure\u001b[m\u001b[K\nProgram exited with code 1"
+  "message": "example_all_fail ~master: building configuration \"example_all_fail-test-library\"...\nLinking...\nRunning ./example_all_fail-test-library \n\u001b[01;31m\u001b[Kcore.exception.AssertError@source/example_all_fail.d(13): Assertion failure\u001b[m\u001b[K\n1/1 modules FAILED unittests\n\u001b[01;31m\u001b[Ksource/example_all_fail.d(13): [unittest] Assertion failure\u001b[m\u001b[K\nProgram exited with code 1"
 }
