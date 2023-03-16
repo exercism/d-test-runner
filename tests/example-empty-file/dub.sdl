@@ -1,2 +1,2 @@
-name "example_all_fail"
+name "example_empty_file"
 buildRequirements "disallowDeprecations"

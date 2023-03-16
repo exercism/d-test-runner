@@ -1,4 +1,5 @@
 {
   "version": 1,
-  "status": "pass"
+  "status": "error",
+  "message": "example_empty_file ~master: building configuration \"example_empty_file-test-library\"...\n\u001b[01;31m\u001b[Ksource/example_empty_file.d(8,13): Error: undefined identifier `isLeap`\u001b[m\u001b[K\n\u001b[01;31m\u001b[Ksource/example_empty_file.d(13,17): Error: undefined identifier `isLeap`\u001b[m\u001b[K\n\u001b[01;31m\u001b[Ksource/example_empty_file.d(16,16): Error: undefined identifier `isLeap`\u001b[m\u001b[K\n\u001b[01;31m\u001b[Ksource/example_empty_file.d(19,16): Error: undefined identifier `isLeap`\u001b[m\u001b[K\n\u001b[01;31m\u001b[Ksource/example_empty_file.d(22,17): Error: undefined identifier `isLeap`\u001b[m\u001b[K\n\u001b[01;31m\u001b[Ksource/example_empty_file.d(25,17): Error: undefined identifier `isLeap`\u001b[m\u001b[K\n\u001b[01;31m\u001b[Ksource/example_empty_file.d(28,16): Error: undefined identifier `isLeap`\u001b[m\u001b[K\n\u001b[01;31m\u001b[Ksource/example_empty_file.d(31,16): Error: undefined identifier `isLeap`\u001b[m\u001b[K\n\u001b[01;31m\u001b[Ksource/example_empty_file.d(34,17): Error: undefined identifier `isLeap`\u001b[m\u001b[K\n/dlang/dmd-2.080.0/linux/bin64/dmd failed with exit code 1."
 }
