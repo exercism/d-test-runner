@@ -49,7 +49,7 @@ exit_code=$?
 mv -f "${original_test_file}" "${test_file}" > /dev/null
 
 if [ $exit_code -eq 0 ]; then
-    echo "${test_output}" | grep -q 'modules passed'
+    echo "${test_output}" | grep -q 'All unit tests have been run successfully'
     exit_code=$?
 fi
 

@@ -1,5 +1,4 @@
 {
   "version": 1,
-  "status": "fail",
-  "message": "example_all_fail ~master: building configuration \"example_all_fail-test-library\"...\nLinking...\nRunning example_all_fail-test-library \nAll unit tests have been run successfully."
+  "status": "pass"
 }
