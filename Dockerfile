@@ -1,4 +1,4 @@
-FROM dlang2/ldc-ubuntu
+FROM dlanguage/dmd:2.080.0
 
 RUN apt-get update && \
     apt-get install -y jq && \
