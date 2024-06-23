@@ -23,6 +23,7 @@ docker run \
     --read-only \
     --mount type=bind,src="${PWD}/tests",dst=/opt/test-runner/tests \
     --mount type=tmpfs,dst=/tmp \
+    --mount type=tmpfs,dst=/root/.dub \
     --workdir /opt/test-runner \
     --entrypoint /opt/test-runner/bin/run-tests.sh \
     exercism/test-runner
