@@ -1,5 +1,5 @@
 {
   "version": 1,
   "status": "fail",
-  "message": "example_partial_fail ~master: building configuration \"example_partial_fail-test-library\"...\nLinking...\nRunning ./example_partial_fail-test-library \ncore.exception.AssertError@source/example_partial_fail.d(38): unittest failure\n1/1 unittests FAILED\nProgram exited with code 1"
+  "message": "     Linking example_partial_fail-test-library\n     Running example_partial_fail-test-library \ncore.exception.AssertError@source/example_partial_fail.d(38): unittest failure\n1/1 modules FAILED unittests\nError Program exited with code 1"
 }

@@ -20,7 +20,6 @@ docker build --rm -t exercism/test-runner .
 docker run \
     --rm \
     --network none \
-    --read-only \
     --mount type=bind,src="${PWD}/tests",dst=/opt/test-runner/tests \
     --mount type=tmpfs,dst=/tmp \
     --workdir /opt/test-runner \
