@@ -63,7 +63,7 @@ else
 
     # Manually add colors to the output to help scanning the output for errors
     colorized_test_output=$(echo "${sanitized_test_output}" \
-         | GREP_COLOR='01;31' grep --color=always -E -e '.*(Assertion failure|Error:).*|$')
+         | GREP_COLORS='mt=01;31' grep --color=always -E -e '.*(Assertion failure|Error:).*|$')
 
     echo "${test_output}" | grep -q 'failed with exit code'
     if [ $? -eq 1 ]; then
