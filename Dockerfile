@@ -5,7 +5,10 @@ RUN apt update && \
     apt update --allow-insecure-repositories && \
     apt -y --allow-unauthenticated install --reinstall d-apt-keyring && \
     apt update && \
-    apt install dmd-compiler dub -y
+    apt install dmd-compiler dub -y && \
+    apt clean && \
+    rm -rf /var/lib/apt/lists/*
+
 WORKDIR /opt/test-runner
 COPY . .
 ENTRYPOINT ["/opt/test-runner/bin/run.sh"]
